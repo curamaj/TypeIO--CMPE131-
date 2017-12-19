@@ -4,4 +4,4 @@ This is a website built in Ruby on Rails designed to allow users to colloborate 
 
 Other developers include: Parvathy Menon, Vijay Dhanota, Grant Haack.
 
-Thank you for taking the time to look at this!
+Feel free to look through our images of the site! Thank you for taking the time to look at this.
