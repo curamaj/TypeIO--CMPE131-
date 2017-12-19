@@ -1,0 +1,26 @@
+<%= form_for(@typeio, :url => bulletin_board_typeio_path(@bulletin_board.id, @typeio.id), method: :put) do |f| %>
+  <% if @typeio.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@typeio.errors.count, "error") %> prohibited this typeio from being saved:</h2>
+
+      <ul>
+      <% @typeio.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.text_area :subject %>
+    <%= f.text_area :body %>                         
+  </div>
+  <div id="new-typeio-button-container">
+    <div class="actions" id="typeio-publish-button">
+      <%= f.submit %>
+    </div>
+    <div id="typeio-cancel-button"
+      <%= link_to 'Cancel', @typeio.bulletin_board %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,81 @@
+#group-list-container
+{
+  width: 600px;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right:auto;
+  padding:10px;
+  background-color: #222222;
+}
+
+.group-cell
+{
+    background-color: #111111;
+    width:580px;
+    float:left;
+    padding:5px;
+    margin:5px;
+}
+
+.group-button-container
+{
+  float:right;
+  padding-top:7px;
+  padding-right:5px;
+}
+
+.group-name-container
+{
+  float:left;
+}
+
+#new-group-container
+{
+  width: 600px;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right:auto;
+  padding:10px;
+  background-color: #222222;
+}
+
+#new-group-container input
+{
+  width:590px;
+  background-color: #111111;
+  border:none;
+  padding:4px;
+  font-size: 24px;
+}
+
+#create-group-button
+{
+  margin-top:20px;
+}
+
+#add-user-to-group-button
+{
+  margin-top: 10px;
+}
+
+#add-user-to-group-button, #add-user-to-group-button input
+{
+  background-color:#0197f6;
+  color:#FFFFFF;
+  border-radius: 5px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#create-group-button, #create-group-button input
+{
+  background-color:#0197f6;
+  color:#FFFFFF;
+  border-radius: 5px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
